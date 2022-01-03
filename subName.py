@@ -4,7 +4,7 @@ def process(email):
     return [email_user , domain_user]
    
 def printMsg(email_user, domain_user):
-    print(f'User name is : {email_user} , Domain user name is : {domain_user}')    
+    print(f'User name  : {email_user} , Domain user name  : {domain_user}')    
     
 def main():
     email = input("please input email : ").strip()
